@@ -11,7 +11,7 @@ To monitor these metrics in real time without relying on a serial console, you c
 
 
 ---
-## supported Hardware (ESP32-S3, ESP32C3, ESP32C6)
+## Hardware (ESP32-S3, ESP32C3, ESP32C6)
 The following boards are supported by this project:
 - [FireBeetle 2 ESP32-C6 IoT Development Board](https://bit.ly/452Ueoq)
 - [Seeed Studio XIAO ESP32C3](https://bit.ly/4zhsuZD)
@@ -19,6 +19,7 @@ The following boards are supported by this project:
 - [Seeed Studio XIAO ESP32C5](https://bit.ly/4iKNAe9)
 - [Seeed Studio XIAO ESP32C6](https://bit.ly/4kkGe23)
 
+- [0.91" I2C OLED](https://www.waveshare.com/wiki/0.91inch_OLED_Module)
 
 
 ## Pin assignment
@@ -69,6 +70,12 @@ The following boards are supported by this project:
 - Install [ArduProf v2.3.1+](https://www.arduino.cc/reference/en/libraries/arduprof/)
 
 ---
+## Clone the project repo
+```
+git clone https://github.com/teamprof/arduino-esp-pf-app.git
+```
+
+---
 ## ESP32S3/ESP32C3/ESP32C5/ESP32C6 (FreeRTOS)
 - Open "arduino-app.ino" under "arduino-app" folder under Arduino IDE
 - On Arduino IDE, click menu "Tools" -> "Board: " -> "Board Manager..." ->  
@@ -115,9 +122,6 @@ DFRobot ESP32C6 video demo is available on [video](https://youtube.com/shorts/og
 
 [![video Xiao ESP32C3](./assets/video-xiao-esp32c3.png)](https://youtube.com/shorts/nvneYgeBysY)  
 Xiao ESP32C3 video demo is available on [video](https://youtube.com/shorts/nvneYgeBysY)  
-
-
-
 
 
 
